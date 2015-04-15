@@ -20,3 +20,11 @@ Sandbox to play with git and SourceTree
 5. Confirm that the *Destination Path* is `H:\gitSandbox`. This will create a folder named `gitSandbox` in the *Project folder* you assigned earlier.
 5. Click the *Clone* button.
 6. Navigate to the [`H:\gitSandbox`](file:///C:/Users/Ben/Documents/gitSandbox/) folder and confirm that you have the files listed [here](https://github.com/benjamin-chan/gitSandbox) (you may not see `.gitignore`; if you don't, don't worry, it's there but hidden)
+
+
+## Task 3: Add a file
+
+1. Using a text editor (e.g., Notepad, [Notepad++](http://notepad-plus-plus.org/), [Sublime](http://www.sublimetext.com/), [Atom](https://atom.io/)), create a text file.
+    * Fill the text file with a bunch of text.
+    * If don't feel creative, use a random text generator, like [Lorem Ipsum](http://www.lipsum.com/).
+2. Save the file as `H:\gitSandbox\<your-first-name>.txt`.
