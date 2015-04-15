@@ -1,6 +1,15 @@
 # gitSandbox
 Sandbox to play with git and SourceTree
 
+
+## Prerequisite
+
+You may need a Markdown viewer/reader extension for your web broswer to properly view this `README.md`.
+
+* Chrome: [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc?hl=en)
+* Firefox: [Markdown Viewer](https://addons.mozilla.org/en-us/firefox/addon/markdown-viewer/)
+
+
 ## Task 1: Get git GUI
 
 1. Download and install [SourceTree](http://www.sourcetreeapp.com/).
