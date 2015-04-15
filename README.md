@@ -9,3 +9,18 @@ Sandbox to play with git and SourceTree
   * Change the *Default user information* to your name and email address.
   * Change the *Project folder* in the *Misc* section to `H:\`.
 4. Click *OK*
+
+
+## 2. Clone your first repository
+
+1. Click the *Clone/New* icon on the toolbar.
+2. Click the *Clone Repository* tab.
+3. In the *Source Path/URL* text box, enter `<gitSandbox-path>`.
+4. Confirm that the *Repository Type* says `This is a Git repository`.
+5. Confirm that the *Destination Path* is `H:\gitSandbox`. This will create a folder named `gitSandbox` in the *Project folder* you assigned earlier.
+5. Click the *Clone* button.
+6. Navigate to the `H:\gitSandbox` folder and confirm that you have the following files:
+    * `Around the World in 80 Days.txt`
+    * `example.do`
+    * `example.Rmd`
+    * `README.md`
