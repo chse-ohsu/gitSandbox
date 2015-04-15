@@ -19,8 +19,4 @@ Sandbox to play with git and SourceTree
 4. Confirm that the *Repository Type* says `This is a Git repository`.
 5. Confirm that the *Destination Path* is `H:\gitSandbox`. This will create a folder named `gitSandbox` in the *Project folder* you assigned earlier.
 5. Click the *Clone* button.
-6. Navigate to the `H:\gitSandbox` folder and confirm that you have the following files:
-    * `Around the World in 80 Days.txt`
-    * `example.do`
-    * `example.Rmd`
-    * `README.md`
+6. Navigate to the `H:\gitSandbox` folder and confirm that you have the files listed [here](https://github.com/benjamin-chan/gitSandbox) (you may not see `.gitignore`; if you don't, don't worry, it's there but hidden)
