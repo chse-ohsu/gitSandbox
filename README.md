@@ -1,7 +1,7 @@
 # gitSandbox
 Sandbox to play with git and SourceTree
 
-## 1. Get git GUI
+## Task 1: Get git GUI
 
 1. Download and install [SourceTree](http://www.sourcetreeapp.com/).
 2. Click the *Tools|Options* menu choice.
@@ -11,7 +11,7 @@ Sandbox to play with git and SourceTree
 4. Click *OK*
 
 
-## 2. Clone your first repository
+## Task 2: Clone your first repository
 
 1. Click the *Clone/New* icon on the toolbar.
 2. Click the *Clone Repository* tab.
