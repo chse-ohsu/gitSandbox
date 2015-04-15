@@ -23,9 +23,15 @@ Sandbox to play with git and SourceTree
 6. Navigate to the [`H:\gitSandbox`](file:H:/gitSandbox/) folder (click the link) and confirm that you have the files listed [here](https://github.com/benjamin-chan/gitSandbox) (you may not see `.gitignore`; if you don't, don't worry, it's there but hidden)
 
 
-## Task 3: Add a file
+## Task 3: Stage a new file
 
 1. Using a text editor (e.g., Notepad, [Notepad++](http://notepad-plus-plus.org/), [Sublime](http://www.sublimetext.com/), [Atom](https://atom.io/)), create a text file.
     * Fill the text file with a bunch of text.
+    * Or copy-paste the contents of another text file into this empty file.
     * If don't feel creative, use a random text generator, like [Lorem Ipsum](http://www.lipsum.com/).
 2. Save the file as `H:\gitSandbox\<your-first-name>.txt`.
+3. In SourceTree, switch to File Status view (click the *View|File Status View* menu choice, or press *Ctrl+1*)
+4. In the lower middle pane labeled *Unstaged files*, check the box next to your `<your-first-name>.txt` file.
+    * Notice that the `<your-first-name>.txt` file moves from the *Unstaged files* pane (lower middle pane) to the *Staged files* pane (upper middle pane)
+
+
