@@ -60,6 +60,9 @@ Now you are ready to commit this addition.
 1. In SourceTree, switch to File Status view (click the *View|File Status View* menu choice, or press *Ctrl+1*)
 2. At the bottom, type in a *Commit message* describing the new file.
     * See [Guidelines for commit messages](.\guidelinesForCommitMessages.md)
+3. Verify that the *Push changes immediate to origin/master* box is **not checked**.
+4. Click the *Commit* button.
+5. Notice that the *Push* icon in the toolbar at the top now has the number *1*.
 
 Now you are ready to make and stage edits to an existing file.
 
@@ -84,14 +87,11 @@ Now you are ready to commit these edits.
 
 ## Task 6: Commit edits
 
-1. In SourceTree, switch to File Status view (click the *View|File Status View* menu choice, or press *Ctrl+1*)
-2. At the bottom, type in a *Commit message* describing the edits.
-3. Click the *Commit* button.
+Same as Task 4, except the last step:
+
+5\. Notice that the *Push* icon in the toolbar at the top now has the number *2*.
 
 Now you are ready to view a log of your edits.
-
-### Suggested guidelines for commit messages
-
 
 
 ## Task 7: View log
@@ -126,7 +126,7 @@ Or as [Carlisle Rainey](https://github.com/carlislerainey/git-for-political-scie
 
 1. Edit the text file `H:\gitSandbox\<your-first-name>.txt`.
     * Add a line **at the beginning** of the file.
-    * Add a line **at the end** of the file**.
+    * Add a line **at the end** of the file.
 2. Save the file.
 3. In SourceTree, switch to File Status view (click the *View|File Status View* menu choice, or press *Ctrl+1*).
 4. In the lower middle pane labeled *Unstaged files*, click the `<your-first-name>.txt` file.
@@ -138,5 +138,6 @@ Or as [Carlisle Rainey](https://github.com/carlislerainey/git-for-political-scie
 8. Stage the hunk at the **end** of the file
 9. Commit this edit.
 10. View the log (click the *View|Log View* menu choice, or press *Ctrl+2*).
+11. Notice the number in the *Push* icon in the toolbar.
 
 Now you are ready to pull and push your commits.
