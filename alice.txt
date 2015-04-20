@@ -1,3 +1,4 @@
+I'm making an edit at the beginning of the file.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex mauris,
 malesuada nec ipsum eget, pharetra condimentum nulla. Quisque rutrum auctor leo
 et efficitur. Vestibulum at ligula justo. Quisque vehicula nisl id elit ornare
