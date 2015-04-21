@@ -46,7 +46,7 @@ Now you are ready to create and stage a new file.
 1. Using a text editor (e.g., Notepad, [Notepad++](http://notepad-plus-plus.org/), [Sublime](http://www.sublimetext.com/), [Atom](https://atom.io/)), create a text file.
     * Fill the text file with a bunch of text.
     * Or copy-paste the contents of another text file into this empty file.
-    * If don't feel creative, use a random text generator, like [Lorem Ipsum](http://www.lipsum.com/).
+    * If don't feel creative, use a random text generator, like [Llama Ipsum](http://www.llamaipsum.com/).
 2. Save the file as `H:\gitSandbox\<your-first-name>.txt`.
 3. In SourceTree, switch to File Status view (click the *View|File Status View* menu choice, or press *Ctrl+1*)
 4. In the lower middle pane labeled *Unstaged files*, check the box next to your `<your-first-name>.txt` file.
