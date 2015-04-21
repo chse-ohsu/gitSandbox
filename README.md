@@ -102,6 +102,9 @@ Now you are ready to view a log of your edits.
     * At the right, the date, author, and commit ID are shown.
 2. Click on another row in the log.
     * The bottom half shows what changes were made from the previous commit to the highlighted commit.
+3. See if you can find out who added the link to [Llama Ipsum](http://www.llamaipsum.com/).
+    * What date was it added?
+    * What is the **commit SHA**? (this is a unique identifier for each commit; it's better than a timestamp)
 
 Now you are ready to stage and commit discrete sets of edits.
 
