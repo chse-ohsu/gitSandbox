@@ -145,3 +145,51 @@ Or as [Carlisle Rainey](https://github.com/carlislerainey/git-for-political-scie
 11. Notice the number in the *Push* icon in the toolbar.
 
 Now you are ready to pull and push your commits.
+
+
+## Task 9: Pull from origin
+
+You are now out-of-sync with **origin**, the repository you originally cloned from.
+
+* If someone else pushed their changes to **origin**, then you are behind.
+* If no one else has pushed their changes yet, then you are ahead.
+* It's possible to be both behind and ahead, but let's keep things simple for now.
+
+
+1. Select *Repository|Refresh Remote Status* from the SourceTree menu (Shift+Alt+R).
+2. Look at the SourceTree toolbar, specifically, at the **Pull** icon.
+    * If there's a number there, then you're behind.
+    * View the log (see Task 7).
+    * Verify that `master` and `origin/master` point to different commits.
+    * This means that you are out-of-sync with *origin*.
+3. If you're not behind, then you can skip to the next task.
+4. If you're behind, then pull all of the commits by clicking on the *Pull* icon (Shift+Ctrl+L).
+    * You should see a popup window that looks like this ![assets\popupPull.png](assets\popupPull.png)
+    * Make sure the settings in your window match the above.
+5. Click *OK*.
+6. View the log (see Task 7).
+    * Check who has made changes, what they where, and when they made them.
+7. Navigate to the `H:\gitSandbox` folder.
+    * Are there new files in this folder?
+
+Now you are ready to push your commits.
+
+
+## Task 10: Push to origin
+
+You've gotten yourself up to date with everyone else's commits.
+Now you need to update everyone else with your commits.
+
+1. Select *Repository|Refresh Remote Status* from the SourceTree menu (Shift+Alt+R).
+2. Look at the SourceTree toolbar, specifically, at the **Push** icon.
+    * If there's a number there, then you're ahead.
+    * View the log (see Task 7).
+    * Verify that `master` and `origin/master` point to different commits.
+    * This means that you are out-of-sync with *origin*.
+3. If you're ahead, then push all of your commits by clicking on the *Push* icon (Shift+Ctrl+P).
+    * You should see a popup window that looks like this ![assets\popupPush.png](assets\popupPush.png)
+    * Make sure the settings in your window match the above.
+4. Click *OK*.
+5. View the log (see Task 7).
+6. Verify that `master` and `origin/master` point to the same commit.
+    * This means that you are in-sync with *origin*.
