@@ -35,6 +35,7 @@ Now you are ready to clone a repository.
     [`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitSandbox.git`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitSandbox.git/).
 4. Confirm that the *Repository Type* says `This is a Git repository`.
 5. Confirm that the *Destination Path* is `H:\gitSandbox`. This will create a folder named `gitSandbox` in the *Project folder* you assigned earlier.
+    * Make sure the settings in the popup window match the following ![assets\popupClone.png](assets\popupClone.png)
 5. Click the *Clone* button.
 6. Navigate to the [`H:\gitSandbox`](file:H:/gitSandbox/) folder (click the link) and confirm that you have the files listed [here](https://github.com/benjamin-chan/gitSandbox/tree/StartHere) (you may not see `.gitignore`; if you don't, don't worry, it's there but hidden).
 
