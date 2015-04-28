@@ -193,3 +193,97 @@ Now you need to update everyone else with your commits.
 5. View the log (see Task 7).
 6. Verify that `master` and `origin/master` point to the same commit.
     * This means that you are in-sync with *origin*.
+
+
+## Intermission
+
+That was a lot of stuff to go over. However, the tasks you completed up to this point are 
+**probably 70-80% of what you would use git/SourceTree for.**
+
+The next tasks are important ones, conceptually.
+However, they're rather trivial, operationally.
+But they're important for starting your own projects from scratch.
+
+So grab a cup of coffee and get comfortable.
+
+
+## Task 11: Initializing a local repository
+
+So far, you've been versioning on an existing source.
+I.e., it was already there when you started.
+To use the biological metaphor, you cloned from existing source material.
+
+But what do you do when you are starting a brand new project?
+I.e., there is no source material to clone from?
+
+You need to **initialize** a local repository.
+
+1. Click the *Clone/New* button on the SourceTree task bar (Ctrl+N).
+2. Click the *Create New Repository* tab.
+    * The *Repository Type* should default to *Git*.
+    * For the *Destination Path* type in `H:\myFirstRepo`.
+3. Click the *Create* button.
+4. Then click the *Open in Explorer* button; this will open a Windows Explorer window showing you the contents of the new folder, `H:\myFirstRepo`, you created.
+    * It's empty, except for a `.git` folder that you may not see.
+    * The initialization process created the `.git` folder
+
+Now you are ready to start your new project.
+
+
+## Task 12: Work on your new project
+
+1. Create a new file and save to `H:\myFirstRepo`.
+2. Stage and commit this addition (see tasks 3-4).
+3. Make some edits to this file.
+4. Stage and commit these edits (see tasks 5-6).
+5. View the project log/history (see task 7).
+
+Now you are ready to pull and push to a remote repository.
+
+However, you first need to set up the remote.
+
+
+## Task 13: Initializing a remote repository
+
+When you cloned an existing repository (task 2),
+you cloned from an existing source.
+That existing source was a **bare repository**.
+
+It's **bare** in the sense that it is not a working folder.
+I.e., it does not contain files that you open/edit/save.
+It contains the source material, the DNA, one would clone from.
+
+In order to pull/push, you'll need to initialize a bare repository.
+
+1. Click the *Terminal* button on the SourceTree toolbar (Shift+Alt+T)
+2. In the terminal, type the following (substitute `<your-name>` with your name):  
+`git init --bare "X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/<your-name>FirstRepo.git"`  
+    * Below is an example of what you should see ![assets\terminalInitBare.png](assets\terminalInitBare.png)
+3. Navigate to the [`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/) folder.
+4. Verify that `<your-name>FirstRepo.git` was created.
+
+Now you are ready to set your remote.
+
+
+## Task 14: Set your remote repository and push your history
+
+1. Click the *Repository|Repository Settings...* menu choice (Shift+Ctrl+,).
+2. Click the *Remotes* tab.
+3. Click the *Add* button.
+4. Check the *Default remote* checkbox
+    * The *Remote name* line should now be populated with `origin`.
+5. In the *URL/Path* line, type in  
+`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/<your-name>FirstRepo.git`
+6. Click *OK*.
+7. Click the second *OK* button.
+8. Push your commits to `origin/master` (task 10).
+
+
+## Intermission
+
+Now you've completed
+**probably 80-90% of what you would use git/SourceTree for.**
+
+Just for kicks, you can clone and contribute to someone else's first repository (tasks 2-10).
+
+The next set of tasks go over how to collaborate with others editing the same file.
