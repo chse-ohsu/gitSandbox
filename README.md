@@ -35,7 +35,7 @@ Now you are ready to clone a repository.
     [`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitSandbox.git`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitSandbox.git/).
 4. Confirm that the *Repository Type* says `This is a Git repository`.
 5. Confirm that the *Destination Path* is `H:\gitSandbox`. This will create a folder named `gitSandbox` in the *Project folder* you assigned earlier.
-    * Make sure the settings in the popup window match the following ![.\assets\popupClone.png](.\assets\popupClone.png)
+    * Make sure the settings in the popup window match the following ![assets/popupClone.png](assets/popupClone.png)
 5. Click the *Clone* button.
 6. Navigate to the [`H:\gitSandbox`](file:H:/gitSandbox/) folder (click the link) and confirm that you have the files listed [here](https://github.com/benjamin-chan/gitSandbox/tree/StartHere) (you may not see `.gitignore`; if you don't, don't worry, it's there but hidden).
 
@@ -164,7 +164,7 @@ You are now out-of-sync with **origin**, the repository you originally cloned fr
     * This means that you are out-of-sync with *origin*.
 3. If you're not behind, then you can skip to the next task.
 4. If you're behind, then pull all of the commits by clicking on the *Pull* icon (Shift+Ctrl+L).
-    * You should see a popup window that looks like this ![.\assets\popupPull.png](.\assets\popupPull.png)
+    * You should see a popup window that looks like this ![assets/popupPull.png](assets/popupPull.png)
     * Make sure the settings in your window match the above.
 5. Click *OK*.
 6. View the log (see Task 7).
@@ -187,7 +187,7 @@ Now you need to update everyone else with your commits.
     * Verify that `master` and `origin/master` point to different commits.
     * This means that you are out-of-sync with *origin*.
 3. If you're ahead, then push all of your commits by clicking on the *Push* icon (Shift+Ctrl+P).
-    * You should see a popup window that looks like this ![.\assets\popupPush.png](.\assets\popupPush.png)
+    * You should see a popup window that looks like this ![assets/popupPush.png](assets/popupPush.png)
     * Make sure the settings in your window match the above.
 4. Click *OK*.
 5. View the log (see Task 7).
@@ -258,7 +258,7 @@ In order to pull/push, you'll need to initialize a bare repository.
 1. Click the *Terminal* button on the SourceTree toolbar (Shift+Alt+T)
 2. In the terminal, type the following (substitute `<your-name>` with your name):  
 `git init --bare "X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/<your-name>FirstRepo.git"`  
-    * Below is an example of what you should see ![.\assets\terminalInitBare.png](.\assets\terminalInitBare.png)
+    * Below is an example of what you should see ![assets/terminalInitBare.png](assets/terminalInitBare.png)
 3. Navigate to the [`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/) folder.
 4. Verify that `<your-name>FirstRepo.git` was created.
 
