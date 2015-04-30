@@ -6,7 +6,7 @@
 
 522.5   periapical abscess
 522.7   periapical absc w sinus
-
+I made an edit here
 574 cholelithiasis* (gallstone)
 574.0   cholelith w ac cholecyst*
 574.00  cholelith w ac cholecyst
@@ -20,7 +20,7 @@
 574.3   choledocholith/ac gb inf*
 574.30  choledocholith/ac gb inf
 574.31  choledochlith/ac gb-obst
-574.4   choledochlith/gb inf nec*
+
 574.40  choledochlith/gb inf nec
 574.41  choledochlith/gb nec-obs
 574.5   choledocholithiasis nos*
