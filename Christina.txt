@@ -1,0 +1,52 @@
+282.62  hb-ss disease w crisis
+338.11  acute pain due to trauma
+338.12  acute post-thoracot pain
+338.18  acute postop pain nec
+338.19  acute pain nec
+
+522.5   periapical abscess
+522.7   periapical absc w sinus
+
+574 cholelithiasis* (gallstone)
+574.0   cholelith w ac cholecyst*
+574.00  cholelith w ac cholecyst
+574.01  cholelith/ac gb inf-obst
+574.1   cholelith w cholecys nec*
+574.10  cholelith w cholecys nec
+574.11  cholelith/gb inf nec-obs
+574.2   cholelithiasis nos*
+574.20  cholelithiasis nos
+574.21  cholelithias nos w obstr
+574.3   choledocholith/ac gb inf*
+574.30  choledocholith/ac gb inf
+574.31  choledochlith/ac gb-obst
+574.4   choledochlith/gb inf nec*
+574.40  choledochlith/gb inf nec
+574.41  choledochlith/gb nec-obs
+574.5   choledocholithiasis nos*
+574.50  choledocholithiasis nos
+574.51  choledochlith nos w obst
+574.60  gall&bil cal w/ac w/o ob
+574.61  gall&bil cal w/ac w obs
+574.70  gal&bil cal w/oth w/o ob
+574.71  gall&bil cal w/oth w obs
+574.80  gal&bil cal w/ac&chr w/o
+574.81  gal&bil cal w/ac&ch w ob
+574.90  gall&bil cal w/o cho w/o
+574.91  gall&bil cal w/o ch w ob
+
+577.0   acute pancreatitis
+592 renal/ureteral calculus* (kidney stone)
+592.0   calculus of kidney
+592.1   calculus of ureter
+592.9   urinary calculus nos
+
+733.1   pathological fracture*
+733.10  path fx unspecified site
+733.11  path fx humerus
+733.12  path fx dstl radius ulna
+733.13  path fx vertebrae
+733.14  path fx neck of femur
+733.15  path fx oth spcf prt fmr
+733.16  path fx tibia fibula
+733.19  path fx oth specif site
