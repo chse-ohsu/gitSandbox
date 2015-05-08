@@ -32,7 +32,7 @@ Now you are ready to clone a repository.
 1. Click the *Clone/New* icon on the toolbar (*Ctrl+N*).
 2. Click the *Clone Repository* tab.
 3. In the *Source Path/URL* text box, enter  
-    [`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitSandbox.git`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitSandbox.git/).
+    [`X:\OHSU Shared\Restricted\OCHSER\Resources\Code_Sharing\gitSandbox.git`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitSandbox.git/).
 4. Confirm that the *Repository Type* says `This is a Git repository`.
 5. Confirm that the *Destination Path* is `H:\gitSandbox`. This will create a folder named `gitSandbox` in the *Project folder* you assigned earlier.
     * Make sure the settings in the popup window match the following ![assets/popupClone.png](assets/popupClone.png)
@@ -257,9 +257,9 @@ In order to pull/push, you'll need to initialize a bare repository.
 
 1. Click the *Terminal* button on the SourceTree toolbar (Shift+Alt+T)
 2. In the terminal, type the following (substitute `<your-name>` with your name):  
-`git init --bare "X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/<your-name>FirstRepo.git"`  
+`git init --bare "X:\OHSU Shared\Restricted\OCHSER\Resources\Code_Sharing\gitOurFirstRepos\<your-name>FirstRepo.git"`  
     * Below is an example of what you should see ![assets/terminalInitBare.png](assets/terminalInitBare.png)
-3. Navigate to the [`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/) folder.
+3. Navigate to the [`X:\OHSU Shared\Restricted\OCHSER\Resources\Code_Sharing\gitOurFirstRepos`](file:///X:/OHSU%20Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/) folder.
 4. Verify that `<your-name>FirstRepo.git` was created.
 
 Now you are ready to set your remote.
@@ -273,7 +273,7 @@ Now you are ready to set your remote.
 4. Check the *Default remote* checkbox
     * The *Remote name* line should now be populated with `origin`.
 5. In the *URL/Path* line, type in  
-`X:/OHSU Shared/Restricted/OCHSER/Resources/Code_Sharing/gitOurFirstRepos/<your-name>FirstRepo.git`
+`X:\OHSU Shared\Restricted\OCHSER\Resources\Code_Sharing\gitOurFirstRepos\<your-name>FirstRepo.git`
 6. Click *OK*.
 7. Click the second *OK* button.
 8. Push your commits to `origin/master` (task 10).
