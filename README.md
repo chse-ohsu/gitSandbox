@@ -294,3 +294,21 @@ Now you've completed
 Just for kicks, you can clone and contribute to someone else's first repository (tasks 2-10).
 
 The next set of tasks go over how to collaborate with others editing the same file.
+
+
+## Task 15: Reverse someone else's edits
+
+1. Check to see if Task 3 has a link to
+    * [Lorem Ipsum](http://lipsum.com), or
+    * [Llama Ipsum](http://www.llamaipsum.com/)
+2. If the link is to *Llama Ipsum*, then reverse the edit
+    1. Switch to Log view (click the *View|Log View* menu choice, or press *Ctrl+2*)
+    2. Look for Thomas' edit from April 17 (SHA a1ca849755340354c590afbf88bd37be33db1bfc)
+    3. Click to choose this commit 
+    4. Click the *Reverse hunk* button
+    5. Open *README.md* in a text editor and verify that the hunk was reversed
+    6. Commit this change
+3. If the link is to *Lorem Ipsum* (i.e., someone already did step 2), then change it back to *Llama Ipsum*
+    1. Switch to Log view (click the *View|Log View* menu choice, or press *Ctrl+2*)
+    2. Scan the more recent commit messages (hopefully whoever made the change used a descriptive commit message)
+    3. Follow steps 2.3 to 2.6, above
