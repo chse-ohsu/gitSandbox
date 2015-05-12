@@ -1,5 +1,12 @@
 # gitSandbox
-Sandbox to play with git and SourceTree
+
+Sandbox to play with git and SourceTree.
+Use this sandbox to explore the behavior of SourceTree + git without breaking real projects.
+
+
+## Collaborative version controlled workflow
+
+![workflow](assets/Collaborative.svg)
 
 
 ## Prerequisite
