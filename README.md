@@ -312,3 +312,25 @@ The next set of tasks go over how to collaborate with others editing the same fi
     1. Switch to Log view (click the *View|Log View* menu choice, or press *Ctrl+2*)
     2. Scan the more recent commit messages (hopefully whoever made the change used a descriptive commit message)
     3. Follow steps 2.3 to 2.6, above
+
+
+## Task 16: Checkout a previous version
+
+Version control is pretty much a time machine.
+It allows you to go back to the state of the project at any point when you made a commit.
+This is especially powerful when you make a commit when you reach project milestones.
+
+1. In Windows Explorer, navigate to the `H:\gitSandbox` folder.
+2. Make a mental note of the files in this folder.
+3. In SourceTree, switch to Log view (click the *View|Log View* menu choice, or press *Ctrl+2*).
+4. Find the commit with description *Initial commit* (SHA 4811ba480c9b2b39258e9fbd4e43bdbc750b84f3).
+5. Right-click on this commit and select *Checkout...* (Shift-Ctrl-U).
+6. Go back to the `H:\gitSandbox` folder.
+7. This folder is now as it was on March 23, 2015 at 14:38.
+    * Many files are gone (they didn't exist back then)
+    * `README.md` only contains 2 lines
+8. In SourceTree, switch to Log view (click the *View|Log View* menu choice, or press *Ctrl+2*).
+9. Find the commit with the tag *master* (it may be the same as *origin/master*; if it isn't, then be sure to select the one tagged *master*).
+10. Right-click on this commit and select *Checkout...* (Shift-Ctrl-U).
+11. Go back to the `H:\gitSandbox` folder.
+12. You are now back to when you started this task.
