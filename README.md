@@ -6,7 +6,7 @@ Use this sandbox to explore the behavior of SourceTree + git without breaking re
 
 ## Collaborative version controlled workflow
 
-![workflow](assets/Collaborative.svg)
+![workflow](assets/Collaborative.png)
 
 
 ## Prerequisite
