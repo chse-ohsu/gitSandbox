@@ -11,6 +11,8 @@ Use this sandbox to explore the behavior of SourceTree + git without breaking re
 
 ## Prerequisite
 
+It is highly recommended to complete the [tryGit](https://try.github.io) web course at [Code School](https://www.codeschool.com).
+
 You may need a Markdown viewer/reader extension for your web broswer to properly view this `README.md`.
 
 * Chrome
