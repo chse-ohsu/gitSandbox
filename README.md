@@ -6,6 +6,11 @@ Use this sandbox to explore the behavior of SourceTree + git without breaking re
 
 ## Collaborative version controlled workflow
 
+CHSE utilizes a centralized workflow.
+More details on this workflow can be found in this [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow) tutorial.
+
+A simplified schematic is below.
+
 ![workflow](assets/Collaborative.png)
 
 
